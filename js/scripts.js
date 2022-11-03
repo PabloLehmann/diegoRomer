@@ -52,3 +52,28 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+/* // Mostrar fotos en galeria
+
+const galeriaFotos = document.getElementById('galeria')
+
+const mostrarFotos = (array) =>{
+    galeriaFotos.innerHTML= ''
+
+    array.forEach((producto) => {
+        const div = document.createElement('div')
+        div.classList.add('producto')
+        div.innerHTML = `
+                        <img src= ${producto.img} alt = "">
+                        <h3>${producto.nombre}</h3>
+                        
+                       
+        
+                        `
+                   galeriaFotos.appendChild(div)    
+        
+    });
+    
+}
+mostrarFotos(fotos)
+ */
